@@ -29,4 +29,5 @@ PRODUCT_RESTRICT_VENDOR_FILES := false
 
 # Inherit from hardware-specific part of the product configuration
 $(call inherit-product, device/vivo/xplay/device.mk)
-$(call inherit-product-if-exists, vendor/vivo/xplay/xplay-vendor.mk)
+# 我不确定这玩意儿需不需要Vendor
+#$(call inherit-product-if-exists, vendor/vivo/xplay/xplay-vendor.mk)
