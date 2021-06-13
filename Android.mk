@@ -23,7 +23,7 @@
 # *not* include it on all devices, so it is safe even with hardware-specific
 # components.
 
-ifneq ($(filter aries aries,$(TARGET_DEVICE)),)
+ifneq ($(filter od1225 pd1225,$(TARGET_DEVICE)),)
 
 LOCAL_PATH := $(call my-dir)
 
